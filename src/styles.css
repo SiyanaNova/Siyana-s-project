@@ -1,5 +1,6 @@
 .form-control {
-    width: 30px;
+    width: 85px;
+   
   }
   .weather {
     border: solid 1px;
@@ -32,8 +33,11 @@
   }
   .table {
     border: solid 1px;
-    border-radius: 1px;
+    border-color: rgb(83, 81, 81);
+    border-radius: 2px;
+    box-shadow: none;
     width: 430px;
+ 
   }
   img {
     margin-left: 125px;
