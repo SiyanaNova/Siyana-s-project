@@ -39,6 +39,9 @@
     width: 430px;
  
   }
+  li{
+    list-style: none;
+  }
   img {
     margin-left: 125px;
   }
