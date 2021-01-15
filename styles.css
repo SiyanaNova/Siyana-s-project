@@ -7,7 +7,7 @@
     border-color: rgb(83, 81, 81);
     border-radius: 2px;
     box-shadow: none;
-    padding: 15px;
+    padding: 5px;
     max-width: 500px;
   
   }
@@ -27,13 +27,14 @@
   font-size: 18px;
  }
 
+
   .cond {
     line-height: 20px;
     min-width: 43%;
     padding-left: 5px;
     padding-top: 2px;
     position: relative;
-    top: -50px;
+    top: -65px;
     right: -200px;
     font-size: 18px;
   }
@@ -46,9 +47,6 @@
  
   }
 
-  img {
-    margin-left: 125px;
-  }
   a {
     text-decoration: none;
     cursor: pointer;

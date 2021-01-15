@@ -1,4 +1,4 @@
-  
+
 let today = new Date();
 let days = [
     "Sunday",
@@ -17,6 +17,7 @@ let date = document.querySelector("#date");
 date.innerHTML= ` ${day}, ${hour}:${minute}`;
   
   function displayWeatherCondition(response) {
+    let iconElement= document.querySelector("#icon");
     document.querySelector("#city").innerHTML = response.data.name;
     document.querySelector("#temperature").innerHTML = Math.round(
       response.data.main.temp
@@ -27,6 +28,7 @@ date.innerHTML= ` ${day}, ${hour}:${minute}`;
     );
     document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
+    iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
   }
   
   function searchCity(city) {
