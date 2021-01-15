@@ -16,30 +16,25 @@
   <body>
     <img src="vreme.JPG" width="265">
     <div class="container">
-     
+      <div class="weather" id="main">
       <div class="weather-app">
         <form class="search-form" id="search-form">        
         <input type="search" placeholder="Enter a city" autocomplete="off" id="city-input" />
         <input type="submit" value="Search" class="form-control btn btn-primary shadow-sm">
       </form> 
-    </div>
-      
-    </br>
-    
-    <div class="weather" id="main">
+      </div>  
+     </br>   
+   
       <h2 id="city"></h2>
-      <ul>
-        <li id="date"></li>
+      <li>Last updated: <span id="date"></span></li>
         <li id="description"></li>
-      </ul>
-    </div>  
     <div class="temp"><span id="temperature"></span>°C</div>
       <div class="cond">
       <div>Wind: <span id="wind"></span></div>
       <div>Humidity: <span id="humidity"></span>%</div>
   </div> 
 </div>
-<div>
+</div>
 </br>
 <div class="table">
 <div class="row">
