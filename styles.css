@@ -9,7 +9,7 @@
     box-shadow: none;
     padding: 5px;
     max-width: 500px;
-  
+    background-image: linear-gradient(to top, #99ccff 0%,#e6f2ff 100%);
   }
  
   .description{
