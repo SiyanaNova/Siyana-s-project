@@ -5,7 +5,7 @@
   .weather {
     border: solid 1px;
     border-color: rgb(83, 81, 81);
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: none;
     padding: 5px;
     max-width: 500px;
@@ -51,5 +51,8 @@
     text-decoration: none;
     cursor: pointer;
     position: relative;
+  }
+  .forecast{
+    margin:0px auto;
   }
   
