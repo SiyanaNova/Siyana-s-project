@@ -2,6 +2,9 @@
     width: 85px;
    
   }
+.form{
+  width: 200px;
+}
   .weather {
     border: solid 1px;
     border-color: rgb(83, 81, 81);
