@@ -12,11 +12,11 @@ let days = [
 let day = days[today.getDay()];
 let hour= today.getHours();
 if (hour < 10) {
-  hour = `0${hours}`;
+  hour = `0${hour}`;
 }
 let minute= today.getMinutes();
 if (minute < 10) {
-  minute= `0${minutes}`;
+  minute= `0${minute}`;
 }
 
 let date = document.querySelector("#date");
