@@ -1,17 +1,15 @@
+
+
 .form-control {
-    width: 85px;
-   
+    width: 100px;   
   }
-.form{
-  width: 200px;
-}
   .weather {
+    padding:20px;
     border: solid 1px;
     border-color: rgb(83, 81, 81);
     border-radius: 5px;
-    box-shadow: none;
-    padding: 5px;
-    max-width: 500px;
+    box-shadow: none;  
+    max-width: 600px;
     background-image: linear-gradient(to top, #99ccff 0%,#e6f2ff 100%);
   }
  
@@ -41,21 +39,32 @@
     right: -200px;
     font-size: 18px;
   }
-  .table {
-    border: solid 1px;
-    border-color: rgb(83, 81, 81);
-    border-radius: 2px;
-    box-shadow: none;
-    width: 430px;
- 
-  }
-
   a {
     text-decoration: none;
     cursor: pointer;
     position: relative;
   }
-  .forecast{
-    margin:0px auto;
-  }
+ .weather-forecast-temperature{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    padding-bottom: 5px;
+ }
+ .weather-forecast h3 {
+  color:black;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 15px;
+  padding-top: 7px;
+}
+
+ .weather-forecast img {
+  display: block;
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
   
